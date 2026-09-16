@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(24, 75, 68);
+    color: white;
+    text-align: center;
+}
+.first-page {
+    display:  grid;
+    
+}
+.first-page img {
+    width: 70%;
+}
+.first-page .left-side {
+}
+.shop-now {
+    background-color: rgb(176, 192, 190);
+    border: 10px solid rgb(176, 192, 190);
+    border-radius: 25px;
+    font-weight: 600;
+    color: rgb(24, 75, 68);
+    font-size: 1.5rem;
+}
+.quality {
+
+}
+.quality img {
+    padding-top: 30px;
+    width: 70%;
+}
