@@ -2,13 +2,17 @@ body {
     background-color: rgb(24, 75, 68);
     color: white;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding: 0px 3px 0px 3px;
 }
 .first-page {
     display:  grid;
     
 }
 .first-page img {
-    width: 70%;
+    width: 90%;
 }
 .first-page .left-side {
 }
@@ -20,10 +24,37 @@ body {
     color: rgb(24, 75, 68);
     font-size: 1.5rem;
 }
-.quality {
-
+.right-side {
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+.right-side h1 {
+    font-size: 3rem;
+}
+.right-side span {
+  font-family: "Qwigley", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.right-side p:first-of-type {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.quality-left-side h2 {
+    font-size: 3rem;
+}
+.quality-left-side p:first-of-type {
+    font-weight: 700;
+}
+.quality-left-side strong {
+    font-weight: 700;
 }
 .quality img {
+    width: 100%;
     padding-top: 30px;
-    width: 70%;
+}
+
+@media only screen and (min-width: 1000px) {
+
 }
