@@ -53,6 +53,26 @@ body {
 .quality img {
     width: 100%;
     padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+.discover {
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr 2fr 2fr;
+    grid-template-areas: 
+    "title"
+    "desc"
+    "health"
+    "uses"
+    "sustain";
+}
+.discover h2 {
+    font-size: 3rem;
+}
+.discover p {
+    color: #839e53;
+    font-weight: 500;
+    font-size: 1.2rem;
 }
 
 @media only screen and (min-width: 1000px) {
