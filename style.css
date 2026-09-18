@@ -53,7 +53,7 @@ body {
 .quality img {
     width: 100%;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     border-bottom: 1px solid white;
 }
 .discover {
@@ -70,6 +70,41 @@ body {
     font-size: 3rem;
 }
 .discover p {
+    color: #839e53;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.section-1 {
+    background-color: aliceblue;
+    border-radius: 75px;
+    margin: 20px;
+    padding: 20px;
+}
+.section-1 h3, .section-2 h3, .section-3 h3 {
+    color: #44532b;;
+}
+.section-1 p, .section-2 p, .section-3 p {
+    font-weight: 400;
+}
+.section-2 {
+    background-color: aliceblue;
+    border-radius: 75px;
+    margin: 20px;
+    padding: 20px;
+}
+.section-3 {
+    background-color: aliceblue;
+    border-radius: 75px;
+    margin: 20px;
+    padding: 20px;
+}
+.production img {
+    width: 100%;
+}
+.production h2 {
+    font-size: 3rem;
+}
+.production p:first-of-type {
     color: #839e53;
     font-weight: 500;
     font-size: 1.2rem;
